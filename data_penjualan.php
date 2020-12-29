@@ -1,4 +1,4 @@
-<?php alert(); ?>
+<?php alerthapus(); ?>
 <table class="table table-bordered table-striped table-hover mt-3">
     <thead>
         <tr>

@@ -49,3 +49,22 @@ if(!empty($_GET['s'])){
                 }
             
 }
+
+function alerthapus() {
+    if(!empty($_GET['s'])){
+        if($_GET['s'] == "1"){
+    ?>
+<div class="alert alert-success">
+    <strong>Berhasil,</strong> Data berhasil dihapus
+</div>
+<?php
+    }else if($_GET['s'] == "2"){
+                        ?>
+<div class="alert alert-danger">
+    <strong>Maaf !</strong> Data gagal dihapus
+</div>
+<?php
+                        }
+                    }
+                
+    }

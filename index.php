@@ -2,6 +2,7 @@
 include 'functions.php';
 hitung();
 // VERNANDA SEPTIA WANANDI
+// https://github.com/vernandaspw/kasir2
 ?>
 
 <!DOCTYPE html>
